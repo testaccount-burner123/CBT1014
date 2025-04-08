@@ -1,0 +1,7 @@
+//*         put this at the end of your job
+//CONDCODE EXEC PGM=IKJEFT01
+//SYSPROC  DD   DISP=SHR,DSN=SYS1.U.CLIST   <-- change
+//SYSTSPRT DD   SYSOUT=*
+//SYSTSIN  DD   *
+CONDCODE
+/*
